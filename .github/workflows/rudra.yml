@@ -22,7 +22,7 @@ jobs:
 
       - name: success message
         run: echo program executed successfully on ubuntu-latest!!
- job2:
+  job2:
     runs-on: windows-latest
 
     steps:
