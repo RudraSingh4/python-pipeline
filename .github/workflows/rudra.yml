@@ -1,5 +1,5 @@
 
-name: MyWorkflow
+name: Rudra_Workflow
 
 on:
   push:
@@ -20,5 +20,5 @@ jobs:
           cd main
           python rudra.py
 
-      - name: success message
-        run: echo program executed successfully on ubuntu-latest!!
+      - name: success 
+        run: Run Successfuly
