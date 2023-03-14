@@ -20,5 +20,5 @@ jobs:
           cd main
           python rudra.py
 
-      - name: success 
-        run: Run Successfuly
+      - name: success message
+        run: echo program executed successfully on ubuntu-latest!!
