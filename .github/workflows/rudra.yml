@@ -17,8 +17,8 @@ jobs:
         with:
           python-version: '3.10' 
       - run: |
-        cd main
-        python rudra.py
+          cd main
+          python rudra.py
 
       - name: success message
         run: echo program executed successfully on ubuntu-latest!!
